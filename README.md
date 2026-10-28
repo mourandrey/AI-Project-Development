@@ -46,6 +46,26 @@ The models were evaluated using:
 - ROC-AUC
 These metrics provide different perspectives on model performance, particularly the ability to identify customers likely to churn.
 
+## Model Evaluation
+
+ROC Curve
+
+The ROC curve evaluates the model's ability to distinguish between customers who churn and those who remain.
+
+The Logistic Regression model achieved a ROC-AUC of 0.8446 on the test dataset.
+
+## Confusion Matrix
+
+The confusion matrix shows the number of correct and incorrect predictions made by the final model.
+
+### ROC Curve
+
+![ROC Curve](images/roc_curve.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
 ## Key Findings
 
 - Analyzed 7,043 customer records to investigate patterns associated with customer churn.
